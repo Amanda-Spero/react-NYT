@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
@@ -27,6 +28,14 @@ const Nav = () => (
         </li>
       </ul>
     </div>
+=======
+
+const Nav = () => (
+  <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a className="navbar-brand" href="/">
+      React Reading List
+    </a>
+>>>>>>> 333358986ea8556c0d8cfe36a74d426f95efe22f
   </nav>
 );
 
